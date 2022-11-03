@@ -16,6 +16,6 @@ with smart_run(session):
 		min_following=50)
 
 	session.set_do_follow(True, percentage=100)
-	session.set_dont_like(['nsfw', 'kia', 'ford'])
+	session.set_dont_like(['cars', 'kia', 'ford'])
 
-	session.like_by_tags(['bmw', 'mercedes'], amount=10)
+	session.like_by_tags(['fallootd', 'petitestyle'], amount=10)
